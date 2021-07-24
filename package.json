@@ -1,24 +1,23 @@
 {
   "name": "notetaker_project",
   "version": "1.0.0",
-  "description": "## Your Task",
-  "main": "server.js",
+  "description": "note-taker",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "watch":"nodemon server"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/aaron-might/notetaker_project.git"
-  },
+  
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/aaron-might/notetaker_project/issues"
   },
-  "homepage": "https://github.com/aaron-might/notetaker_project#readme",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
   }
 }
