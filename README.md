@@ -10,18 +10,18 @@ This simple note taking application allows you to save notes with a title and pl
 Clone the repository to your local development environment.
 
 ```
-git clone https://github.com/amandalatkins/note-taker.git
+git clone https://github.com/aaron-might/notetaker_project
 ```
 
 Navigate to the developer-profile-generator folder using the command prompt.
 
-Run `npm install` to install all dependencies. To use the application locally, run `node server.js` in your CLI, and then open `http://localhost:3000` in your preferred browswer. The Note Taker app is [live on Heroku](https://whispering-woodland-84908.herokuapp.com/) for you to use as well.
+Run `npm install` to install all dependencies. To use the application locally, run `node server.js` in your CLI, and then open `http://localhost:3000` in your preferred browswer. The Note Taker app is [live on Heroku](https://ancient-island-64359.herokuapp.com/) for you to use as well.
 
 ## Preview:
 ![Application Preview](demo.gif)
 
 ## Deployed Link:
-[Note Taker App](https://whispering-woodland-84908.herokuapp.com/)
+[Note Taker App](https://ancient-island-64359.herokuapp.com//)
 
 ## Learning Points:
 * This app was a practice in writing the backend code only and then integrating it with provided front end code (index.html, notes.html, and custom jQuery)
