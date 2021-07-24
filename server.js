@@ -18,5 +18,5 @@ app.use(express.static(path.join(__dirname, './public')));
 require('./routes/routes')(app);
 require('./routes/htmlRoutes')(app);
 
-// add listener
+//finally add a listener
 app.listen(PORT, () => console.log(`App listening on: http://localhost:${PORT}`));
