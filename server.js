@@ -16,7 +16,7 @@ app.use(express.static(path.join(__dirname, './public')));
 
 // links route scripts
 require('./routes/routes')(app);
-require('./routes/htmlRoutes')(app);
+require('./routes/HtmlRoutes')(app);
 
 //finally add a listener
 app.listen(PORT, () => console.log(`App listening on: http://localhost:${PORT}`));
