@@ -1,22 +1,13 @@
+let noteTitle;
+let noteText;
+let saveNoteBtn;
+let newNoteBtn;
+let noteList;
 
-const express = require('express');
-const path = require('path');
-
-// creates an express.js server
-const app = express();
-
-// initial port
-const PORT = process.env.PORT || 3000;
-
-// read url or json
-app.use(express.urlencoded({ extended: true }));
-app.use(express.json());
-// gives access to public folder
-app.use(express.static(path.join(__dirname, './public')));
-
-// links route scripts
-require('./routes/apiRoutes')(app);
-require('./routes/htmlRoutes')(app);
-
-// add listener
-app.listen(PORT, () => console.log(`App listening on: http://localhost:${PORT}`));
+if (window.location.pathname === '/notes') {
+    noteTitle = document.querySelector('.note-title');
+    noteText = document.querySelector('.note-textarea');
+    saveNoteBtn = document.querySelector('.save-note');
+    newNoteBtn = document.querySelector('.new-note');
+    noteList = document.querySelectorAll('.list-container .list-group');
+  }
